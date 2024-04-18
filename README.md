@@ -9,7 +9,7 @@
  
 > ✨ Navigate docs at [docs.lume.ai](https://docs.lume.ai)
 
-Example code and guides for accomplishing common tasks with the [Lume API](https://docs.lume.ai). To run these examples, you'll need a Lume API key ([reach out to start a trial]([https://](https://cal.com/lume-ai/intro-call?date=2024-04-18&month=2024-04))). Set an environment variable called `LUME_API_KEY` with your API key. Alternatively, in most IDEs such as Visual Studio Code, you can create an `.env` file at the root of your repo containing `LUME_API_KEY=<your API key>`, which will be picked up by the notebooks.
+Example code and guides for accomplishing common tasks with the [Lume API](https://docs.lume.ai). To run these examples, you'll need a Lume API key ([reach out to start a trial]([https://](https://cal.com/lume-ai/intro-call?date=2024-04-18&month=2024-04))). Set the Lume API Key in the notebook cell.
 
 Most code examples are written in Python, though the concepts can be applied in any language.
 
