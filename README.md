@@ -1,13 +1,13 @@
 <a href="https://www.lume.ai" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/images/banner.png" style="max-width: 100%; width: 400px; margin-bottom: 20px">
-    <img alt="OpenAI Cookbook Logo" src="/images/banner.png" width="400px">
+    <source media="(prefers-color-scheme: dark)" srcset="/images/logo.png" style="max-width: 100%; width: 400px; margin-bottom: 20px">
+    <img alt="OpenAI Cookbook Logo" src="/images/logo.png" width="400px">
   </picture>
 </a>
 
 <h3></h3>
  
-> ✨ Navigate at [www.lume.ai](https://www.lume.ai)
+> ✨ Navigate docs at [docs.lume.ai](https://docs.lume.ai)
 
 Example code and guides for accomplishing common tasks with the [Lume API](https://docs.lume.ai). To run these examples, you'll need a Lume API key ([reach out to start a trial]([https://](https://cal.com/lume-ai/intro-call?date=2024-04-18&month=2024-04))). Set an environment variable called `LUME_API_KEY` with your API key. Alternatively, in most IDEs such as Visual Studio Code, you can create an `.env` file at the root of your repo containing `LUME_API_KEY=<your API key>`, which will be picked up by the notebooks.
 
