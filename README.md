@@ -1,7 +1,7 @@
 <a href="https://www.lume.ai" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="/images/logo.png" style="max-width: 100%; width: 300px; margin-bottom: 20px">
-    <img alt="OpenAI Cookbook Logo" src="/images/logo_cookbook.png" width="300px">
+    <source media="(prefers-color-scheme: dark)" srcset="/images/logo_cookbook.png" style="max-width: 100%; width: 500px; margin-bottom: 20px">
+    <img alt="OpenAI Cookbook Logo" src="/images/logo_cookbook.png" width="500px">
   </picture>
 </a>
 
