@@ -18,5 +18,3 @@ For more information, check out the [Lume Documentation](https://docs.lume.ai) a
 ## Contributing
 
 Whether you have an idea, fixing a typo, adding a new guide, or improving an existing notebook, please reach out to the Lume team to do this.
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=468576060&machine=basicLinux32gb&location=EastUs)
