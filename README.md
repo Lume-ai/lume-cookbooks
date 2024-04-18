@@ -11,7 +11,7 @@
 
 Example code and guides for accomplishing common tasks with the [Lume API](https://docs.lume.ai). To run these examples, you'll need a Lume API key ([reach out to start a trial]([https://](https://cal.com/lume-ai/intro-call?date=2024-04-18&month=2024-04))). Set the Lume API Key in the notebook cell.
 
-Most code examples are written in Python, though the concepts can be applied in any language.
+Currently all code examples are written in Python, though the concepts can be applied in any language.
 
 For more information, check out the [Lume Documentation](https://docs.lume.ai) and [Lume Landing Page](https://www.lume.ai).
 
