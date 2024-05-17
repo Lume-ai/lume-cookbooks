@@ -95,8 +95,12 @@
           "description": "The date and time when the product was published, in ISO 8601 format."
         },
         "published_scope": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "enum": [
+            null,
             "global",
             "web",
             "point_of_sale"
@@ -104,8 +108,12 @@
           "description": "The scope in which the product is published. Can be 'global', 'web', or 'point_of_sale'."
         },
         "status": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "enum": [
+            null,
             "active",
             "archive",
             "draft"
@@ -155,7 +163,10 @@
               "description": "The height of the image in pixels."
             },
             "image_url": {
-              "type": "string",
+              "type": [
+                "string",
+                "null"
+              ],
               "format": "uri",
               "description": "The URL of the image."
             }
@@ -204,9 +215,11 @@
         },
         "vendor_industry": {
           "type": [
-            "string"
+            "string",
+            "null"
           ],
           "enum": [
+            null,
             "Retail",
             "Technology",
             "Healthcare",
@@ -357,7 +370,6 @@
     "product",
     "metadata",
     "statistics",
-    "extra",
     "reviews"
   ]
 }
