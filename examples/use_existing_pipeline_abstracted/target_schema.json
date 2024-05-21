@@ -211,7 +211,7 @@
           "type": "string",
           "pattern": "^\\([0-9]{3}\\)-[0-9]{3}-[0-9]{4}$",
           "generate": true,
-          "description": "The phone number of the vendor"
+          "description": "The phone number of the vendor, in the (231)-231-2321 format."
         },
         "vendor_industry": {
           "type": [
