@@ -27,66 +27,39 @@
           "description": "The unique numeric identifier for the product."
         },
         "currency": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Choose a currency to assign to the product prices."
         },
         "description": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Product description (plaintext, read-only)."
         },
         "name": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Product name."
         },
         "weight": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "Weight of the Product."
         },
         "sku": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Stock keeping unit of a product. Note: this field is only used if a product doesn't use variants."
         },
         "cost_price": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "Default cost price for the product."
         },
         "product_type": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "ID of the type that product belongs to."
         },
         "seller": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "ID of the seller that product belongs to."
         },
         "image_url": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "description": "URL of the product image."
         },
         "published_at": {
@@ -95,29 +68,13 @@
           "description": "The date and time when the product was published, in ISO 8601 format."
         },
         "published_scope": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            null,
-            "global",
-            "web",
-            "point_of_sale"
-          ],
+          "type": ["string", "null"],
+          "enum": [null, "global", "web", "point_of_sale"],
           "description": "The scope in which the product is published. Can be 'global', 'web', or 'point_of_sale'."
         },
         "status": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "enum": [
-            null,
-            "active",
-            "archive",
-            "draft"
-          ],
+          "type": ["string", "null"],
+          "enum": [null, "active", "archive", "draft"],
           "description": "The current status of the product."
         },
         "tags": {
@@ -163,10 +120,7 @@
               "description": "The height of the image in pixels."
             },
             "image_url": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": ["string", "null"],
               "format": "uri",
               "description": "The URL of the image."
             }
@@ -209,15 +163,10 @@
       "properties": {
         "vendor_phone": {
           "type": "string",
-          "pattern": "^\\([0-9]{3}\\)-[0-9]{3}-[0-9]{4}$",
-          "generate": true,
-          "description": "The phone number of the vendor, in the (231)-231-2321 format."
+          "description": "The phone number of the vendor"
         },
         "vendor_industry": {
-          "type": [
-            "string",
-            "null"
-          ],
+          "type": ["string", "null"],
           "enum": [
             null,
             "Retail",
@@ -236,45 +185,27 @@
           "description": "The address details of the vendor",
           "properties": {
             "city": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": ["string", "null"],
               "description": "City of the vendor address."
             },
             "country": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": ["string", "null"],
               "description": "Country of the vendor address."
             },
             "line1": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": ["string", "null"],
               "description": "Line 1 of the vendor address."
             },
             "line2": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": ["string", "null"],
               "description": "Line 2 of the vendor address."
             },
             "postal_code": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": ["string", "null"],
               "description": "Postal code of the vendor address."
             },
             "state": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "type": ["string", "null"],
               "description": "State of the vendor address."
             }
           }
@@ -296,47 +227,29 @@
       "description": "The statistics of the product",
       "properties": {
         "total_sales": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "Total sales of the product measured by transactions"
         },
         "largest_transaction_delta": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "The largest delta in transaction total of the product, from the most expensive transaction and the cheapest transaction"
         },
         "largest_transaction_cost": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "The largest transaction cost of the product."
         },
         "lowest_transaction_cost": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "The lowest transaction cost of the product."
         },
         "average_transaction_cost": {
-          "type": [
-            "number",
-            "null"
-          ],
+          "type": ["number", "null"],
           "description": "The average transaction cost of the product."
         }
       }
     },
     "reviews": {
-      "type": [
-        "object",
-        "null"
-      ],
+      "type": ["object", "null"],
       "items": {
         "type": "object",
         "properties": {
@@ -357,19 +270,10 @@
             "description": "The text of the review."
           }
         },
-        "required": [
-          "review_id",
-          "author",
-          "rating"
-        ]
+        "required": ["review_id", "author", "rating"]
       },
       "description": "Customer reviews of the product."
     }
   },
-  "required": [
-    "product",
-    "metadata",
-    "statistics",
-    "reviews"
-  ]
+  "required": ["product", "metadata", "statistics", "reviews"]
 }
